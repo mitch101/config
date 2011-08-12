@@ -32,6 +32,6 @@ alias rm='rm -i'
 alias g='git'
 
 # Load custom bashrc
-source ~/config/local/bashrc
+source ~/config/local/dotfiles/bashrc
 
 
