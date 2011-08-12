@@ -1,0 +1,4 @@
+--type-add=html=.haml
+--type-add=css=.sass,.scss
+--type-add=ruby=.ru,.feature
+--type-add=js=.coffee
