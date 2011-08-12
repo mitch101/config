@@ -12,10 +12,10 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export PATH=./bin:$PATH
 
 # Define bash colours
-source ~/bin/dotfiles/bash_colours.bash
+source ~/config/shared/dotfiles/bash_colours.bash
 
 # Setup Git completion
-source ~/bin/dotfiles/git-completion.bash
+source ~/config/shared/dotfiles/git-completion.bash
 
 export CLICOLOR=1
 export EDITOR="mate -w"
@@ -30,9 +30,8 @@ export PS1="\[$IGreen\]\n\h:\w \[$Yellow\](\$(~/.rvm/bin/rvm-prompt v p g s)) \[
 # Aliases
 alias rm='rm -i'
 alias g='git'
-function rails_template() { rails new "$@" -J -T -m https://raw.github.com/mitch101/Rails-3-Starter-Kit/master/template.rb; }
 
 # Load custom bashrc
-source ~/bin/custom_dotfiles/bashrc
+source ~/config/local/bashrc
 
 
