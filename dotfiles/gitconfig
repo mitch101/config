@@ -22,6 +22,8 @@
     ps = push
     pl = pull
     hp = push heroku master
+    wip = !"git add -A; git ls-files --deleted -z | xargs -0 git rm; git commit -m \"wip\""
+
 
 [push]
 	default = current
